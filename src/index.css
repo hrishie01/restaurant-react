@@ -1,0 +1,324 @@
+@media screen and (max-width: 567px) {
+    .nav-item:hover {
+        transform: scale(1.06);
+        transition-duration: 0.6s;
+    }
+    .carousel {
+        width: 93vw;
+        height: 31vh;
+        
+    }
+
+    .carousel .carousel-item {
+        width: 93vw;
+        height: 31vh;
+    }
+    .carouselGrid {
+        margin-top: 10%;
+        margin-right: 10%;
+    }
+    .hometitle {
+        margin-top: 10%;
+    }
+    .title {
+        
+        font-size: 10vw;
+    }
+    .nav-item {
+        height: 8vh;
+        width: 70vw;
+    }
+    .nav-item .selected {
+        color: rgba(255, 255, 255, 1);
+        font-size: 35px;
+        font-weight: 400;
+        text-shadow: 1px 1px 10px rgb(190, 190, 190);
+    }
+}
+
+@media screen and (min-width: 567px) and (max-width: 771px) {
+    .nav-item:hover {
+        transform: scale(1.06);
+        transition-duration: 0.6s;
+    }
+    .carouselGrid {
+        margin-top: 5%;
+        
+    }
+    .carousel {
+        width: 100%;
+        height: 45vh;
+        /* margin-right: 15%; */
+    }
+
+    .carousel .carousel-item {
+        width: 100%;
+        height: 45vh;
+        
+    }
+    .hometitle {
+        margin-top: 2%;
+    }
+    .title {
+        
+        font-size: 7vw;
+    }
+    .nav-item {
+        height: 8vh;
+        width: 70vw;
+    }
+    .nav-item .selected {
+        color: rgba(255, 255, 255, 1);
+        font-size: 35px;
+        font-weight: 400;
+        text-shadow: 1px 1px 10px rgb(190, 190, 190);
+    }
+}
+
+@media screen and (min-width: 771px) {
+    .nav-item:hover {
+        transform: scale(1.4);
+        transition-duration: 0.6s;
+    }
+    #eventImg:hover {
+        transform: scale(1.2);
+        transition-duration: 0.4s;
+    }
+    .carouselGrid {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .carousel {
+        width: 90%;
+        height: 50vh;
+    }
+
+    .carousel .carousel-item {
+        width: 100%;
+        height: 50vh;
+    }
+    /* .carousel-control-prev-icon:hover,.carousel-control-next-icon:hover {
+          
+    } */
+    .carousel-control-prev:hover,.carousel-control-next:hover {
+        transform: scale(2);
+        transition-duration: 1s;
+    }
+    .title {
+        font-size: 5vw;
+    }
+    .nav-item {
+        height: 60px;
+        width: 8vw;
+    }
+    .nav-item .selected {
+        color: rgba(255, 255, 255, 1);
+        font-weight: 500;
+        text-shadow: 1px 1px 10px rgb(190, 190, 190);
+    }
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+nav {
+    height: 13vh;
+}
+.navbar {
+    width: 100vw;
+    margin-top: 0px;
+}
+.navbar-dark {
+    background-color: #000000;
+}
+.navbar-collapse {
+    background-color: #000000;
+    border-radius: 5px;
+}
+.nav-item {
+    margin-left: 4vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    border-radius: 3px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+
+footer {
+    padding-top: 20px;
+    background-color: rgb(17, 13, 29);
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+.social-links {
+    background-color: rgb(7, 0, 29);
+    color: white;
+}
+
+.social-text {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.fa {
+    font-size: 30px;
+    margin-bottom: 3vh;
+}
+.social-fonts {
+    text-align: center;
+}
+.social-fonts a {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+.social-fonts a i:hover {
+    transform: scale(1.6);
+    transition-duration: 0.5s;
+}
+.row-content {
+    margin-top: 14vh;
+}
+
+.row-header {
+    margin-top: 3vh;
+}
+
+.ContactHeader {
+    margin-top: 10vh;
+    background-image: url("./img/42_1_contact-us.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 95vh;
+}
+
+.pageTitle {
+    margin-top: 32vh;
+    text-align: center;
+    font-size: 4rem;
+    color: aliceblue;
+    text-shadow: 4px 4px 6px black;
+}
+
+.gap {
+    height: 6vh;
+}
+
+hr {
+    border: 3px solid black;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.eventsHeader {
+    margin-top: 10vh;
+    background-image: url("./img/https___specials-images.forbesimg.com_imageserve_5e4c0c1999d44900073534e8_0x0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+}
+
+.eventsPara p {
+    font-size: 18px;
+    font-weight: 350;
+}
+.eventtext {
+    margin-top: 3vh;
+}
+
+.eventtext h1 {
+    margin-left: 2vw;
+    margin-top: 3vh;
+}
+
+.eventtext p {
+    margin-left: 2vw;
+    font-size: 18px;
+    font-weight: 350;
+}
+.event {
+    margin-top: 6vh;
+}
+.event img {
+    width: 100%;
+    max-height: 95%;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5), 5px 0 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.customTeam {
+    text-align: center;
+}
+
+.carousel-item img {
+    width: 49%;
+    height: 100%;
+}
+
+.carousel-caption {
+    text-shadow: 2px 2px 10px black;
+}
+
+.carousel-caption:hover {
+    transform: scale(1.4);
+    transition-duration: 0.4s;
+}
+
+.title {
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.mainHome {
+    margin-top: 10vh;
+    height: 99vh;
+    background-image: url("./img/white-concrete-wall_53876-92803.jpg");
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.about-header {
+    height: 90vh;
+    margin-top: 10vh;
+    padding-top: 35vh;
+    text-align: center;
+    background-image: url("./img/main_about.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    text-shadow: 3px 3px 8px black;
+}
+
+.history-img {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+.history-img img {
+    width: 100%;
+}
